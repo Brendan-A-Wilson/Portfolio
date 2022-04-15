@@ -1,0 +1,42 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+#footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#bk-btn {
+  padding: 7px 15px;
+}
+
+body {
+  background-color: #080f1d;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Sunflower', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #cc4e5f;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+  width: 80%;
+}

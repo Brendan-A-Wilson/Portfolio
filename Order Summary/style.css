@@ -1,0 +1,150 @@
+/*Background Image Styling*/
+
+body {
+    background-image: url(Images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: hsl(225, 100%, 94%);
+}
+
+/*Container Styling*/
+
+#container {
+    border: 0.5px solid rgb(236, 231, 231);
+    box-shadow: 1px 10px 20px hsl(224, 32%, 68%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+/*Container Image Styling*/
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+/*Container Body Styling*/
+
+#body-container h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Red Hat Display', 'Times', serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#body-container p {
+    text-align: center;
+    line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    color: hsl(225, 20%, 55%);
+    font-family: 'Red Hat Display', 'Times', serif;
+}
+
+/*Annual Plan Container Styling*/
+
+.annual-plan {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: hsl(225, 99%, 98%);
+    width: 340px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.music-img {
+    height: 42px;
+    width: 42px;
+    margin-right: 13px;
+    margin-top: 18px;
+}
+
+.span-annual-plan {
+    position: relative;
+    bottom: 25px;
+    font-family: 'Red Hat Display', 'Times', serif;
+    font-weight: bold;
+}
+
+.annual-plan-price {
+    position: relative;
+    right: 89px;
+    font-family: 'Red Hat Display', 'Times', serif;
+}
+
+.annual-plan-change {
+    position: relative;
+    bottom: 15px;
+    font-family: 'Red Hat Display', 'Times', serif;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.annual-plan-change:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245, 75%, 70%);
+}
+
+/*Container Button Styling*/
+
+.buttons {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.proceed-button {
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 95px;
+    padding-right: 95px;
+    font-family: 'Red Hat Display', 'Times', serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.proceed-button:hover {
+    background-color: hsl(245, 75%, 70%);
+}
+
+.cancel-button {
+    font-family: 'Red Hat Display', 'Times', serif;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.cancel-button:hover {
+    font-weight: bold;
+}
+
+#footer-p {
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Red Hat Display', 'Times', serif;
+    color: black;
+}
