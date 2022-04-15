@@ -1,0 +1,299 @@
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+body {
+
+    background-color: brown;
+
+    /* --stripe: #cfd8dc;
+    --bg: #e1e1e1;
+
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe); */
+}
+
+/*Container Styling*/
+
+#container {
+    width: 50%;
+    background-color: gainsboro;
+    border-style: solid;
+    border-color: rgb(51, 49, 49);
+    border-width: 8px;
+    border-radius: 3px;
+    position: relative;
+    left: 450px;
+    Top: 200px;
+}
+
+/*Title Styling*/
+
+h1 {
+    margin-bottom: 0px;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 30px;
+}
+
+#title {
+    color: white;
+    background-color: rgb(190, 25, 25);
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+}
+
+/*Wrapper Styling/Sub Container*/
+
+.wrapper {
+    display: flex;
+}
+
+#sub-container-left {
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#sub-container-right {
+    width: 50%;
+    margin-top: 10px;
+}
+
+/*Form Styling*/
+
+label {
+    display: flex;
+}
+
+.asterisk {
+    color: red;
+}
+
+#sname-label {
+    margin-top: 8px;
+}
+
+#email-label {
+    margin-top: 8px;
+}
+
+#cpassword-label {
+    margin-top: 8px;
+}
+
+#phone-label {
+    margin-top: 8px;
+}
+
+/*Terms and conditions styling*/
+
+#terms-conditions {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#terms {
+    width: 100%;
+}
+
+#confirm {
+    width: 20px;
+    height: 15px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+#confirm-span {
+    display: block;
+    overflow: hidden;
+    padding-top: 1.5px;
+}
+
+/*Error Messages*/
+
+#password-error {
+    margin-left: 1px;
+    color: red;
+}
+
+#confirmed-password-error {
+    margin-left: 1px;
+    color: red;
+}
+
+title {
+    color: red;
+}
+
+/*Style all input fields*/
+
+input {
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+input:focus {
+    background-color: antiquewhite;
+}
+
+/*Button Styling*/
+
+.button-section {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#submit {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 10px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 1px;
+}
+
+#submit:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#reset {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 10px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 46px;
+}
+
+#reset:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#bk-btn-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Adjust the size of the container when the screen is reduced in size*/
+
+@media only screen and (max-width: 1300px) {
+    #container {
+        width: 50%;
+        position: relative;
+        left: 315px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        width: 50%;
+        position: relative;
+        left: 250px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #container {
+        width: 50%;
+        position: relative;
+        left: 230px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 63%;
+        position: relative;
+        left: 85px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #container {
+        width: 65%;
+        position: relative;
+        left: 80px;
+        margin-bottom: 100px;
+    }
+}
+
+/*Adjust the size of the wrapper*/
+
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+        display: block;
+    }
+    #sub-container-left {
+        width: 100%;
+    }
+    #sub-container-right {
+        width: 100%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        display: block;
+        width:50%;
+    }
+    #sub-container-left {
+        width: 50%;
+    }
+    #sub-container-right {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    #button-section {
+        display: block;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        display: block;
+        width:50%;
+    }
+    #sub-container-left {
+        width: 50%;
+    }
+    #sub-container-right {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    #button-section {
+        display: block;
+        width:100%;
+    }
+}

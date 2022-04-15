@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Validation 🖹</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <main>
+            <section id="container">
+                <form action="results.html" method="GET" id="form" name="myForm">
+                    <header id="title">
+                        <h1>Sign up to Register</h1>
+                    </header>
+            
+                    <div class="wrapper">
+                        <div id="sub-container-left">
+                            <div>
+                                <label for="fname">First Name:<span class="asterisk">*</span></label>
+                                <input type="text" id=fname name="First Name" placeholder="firstname" size="25" maxlength="15"
+                                    pattern="[A-Za-z]{1,15}" title="First name should only contain letters." autofocus required>
+                            </div>
+            
+                            <div>
+                                <label id="sname-label" for="sname">Surname:<span class="asterisk">*</span></label>
+                                <input type="text" id="sname" name="Surname" placeholder="surname" size="25" maxlength="15"
+                                    pattern="[A-Za-z]{1,15}" title="Second name should only contain letters." required>
+                            </div>
+            
+                            <div>
+                                <label id="email-label" for="email">Email Address:<span class="asterisk">*</span></label>
+                                <input type="email" id="email" name="Email" placeholder="email@address.com" size="25" maxlength="50"
+                                    required>
+                            </div>
+                        </div>
+            
+                        <div id="sub-container-right">
+                            <div>
+                                <label for="password">Password:<span class="asterisk">*</span></label>
+                                <input type="password" id="password" name="Password" placeholder="password" size="25" required>
+                            </div>
+                            <div id="password-error"></div>
+            
+                            <div>
+                                <label id="cpassword-label" for="Cpassword">Confirm Password:<span class="asterisk">*</span></label>
+                                <input type="password" id="Cpassword" name="Confirmed Password" placeholder="password" size="25"
+                                    required>
+                            </div>
+                            <div id="confirmed-password-error"></div>
+            
+                            <div>
+                                <label id="phone-label" for="phone">Contact Number:</label>
+                                <input type="tel" name="Phone Number" id="phone" size="25" maxlength="11"
+                                    placeholder="9999-999-9999" pattern="[0-9]{11,11}"
+                                    title="Contact number must not contain letters and must be 11 digits.">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div id="terms-conditions">
+                        <input type="checkbox" name="Confirmed" id="confirm" required>
+                        <span id="confirm-span" for="confirm" id="terms">I confirm that I am 13 years of age or older and I accept the terms & Conditions and Privacy Policy.</span>
+                    </div>
+            
+                    <div class="button-section">
+                        <button type="submit" id="submit">Submit</button>
+                        <button type="reset" onclick="document.location.reload()" id="reset">Reset</button>
+                    </div>
+
+                    <div id="bk-btn-container">
+                        <button type="button" onclick="window.location.href='../index.html'" id="bk-btn">Back to portfolio</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!--Javascript Link-->
+        <script src="./script.js"></script>
+    </body>
+</html>

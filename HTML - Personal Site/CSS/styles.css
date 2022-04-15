@@ -1,0 +1,40 @@
+/****************************TAG SELECTORS***************************/
+
+body {
+        background-color: white;
+    }
+
+hr {
+    border-color: grey;
+    border-style: dotted none none;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/****************************CLASS SELECTORS***************************/
+
+
+
+/****************************ID SELECTORS***************************/
+
+#heading {
+    color: greenyellow;
+}
+
+#footer {
+    margin-top: 35px;
+    text-align: center;
+}
