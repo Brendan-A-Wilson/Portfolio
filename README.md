@@ -1,7 +1,7 @@
 # Portfolio.github.io
 
 ## Description
-This showcases all the projects that I have put together on this portfolio.
+This is my portfolio that showcases all the projects that I have developed so far.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ This showcases all the projects that I have put together on this portfolio.
 
 ### Executing program
 
-* Copy and paste this url (https://brendan-a-wilson.github.io/Portfolio.github.io/) into the address bar on the web browser.
+* Copy and paste this url (https://brendan-a-wilson.github.io/Portfolio/) into the address bar on the web browser.
 
 ## Version History
 
